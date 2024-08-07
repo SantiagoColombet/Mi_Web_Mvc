@@ -1,0 +1,23 @@
+
+<div class="titulo">
+    <h2>@ViewBag.TituloIndex</h2>
+    <h3>@ViewBag.SubtituloIndex</h3>
+</div>
+
+<section class="contenedores">
+    @foreach (var Carta in ViewBag.cartasIndex)
+    {
+        <div class="contenedor">
+            <div class="img_container">
+                <img src="@Carta.Imagen" >
+            </div>
+            <h4>@Carta.Titulo</h4>
+            <p>@Carta.Contenido</p>
+        </div>
+    }
+</section>
+
+<div class="informacion">
+    <p>Para más información ingrese al siguiente enlace:</p>
+    <a href="https://es.wikipedia.org/wiki/Andorra">Andorra en Wikipedia</a>
+</div>

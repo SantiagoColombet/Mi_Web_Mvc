@@ -1,0 +1,17 @@
+
+<div class="titulo">
+    <h2>@ViewBag.TituloCiudades</h2>
+</div>
+
+<section class="contenedores">
+    @foreach (var Carta in ViewBag.cartasCiudades)
+    {
+        <div class="contenedor">
+            <div class="img_container">
+                <iframe src="@Carta.Imagen"></iframe>
+            </div>
+            <h4>@Carta.Titulo</h4>
+            <p>@Carta.Contenido</p>
+        </div>
+    }
+</section>

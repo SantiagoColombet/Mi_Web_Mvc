@@ -1,0 +1,17 @@
+
+<div class="titulo">
+    <h2>@ViewBag.TituloActividades</h2>
+</div>
+
+<section class="contenedores">
+    @foreach (var Carta in ViewBag.cartasActividades)
+    {
+        <div class="contenedor">
+            <div class="img_container">
+                <img src="@Carta.Imagen" >
+            </div>
+            <h4>@Carta.Titulo</h4>
+            <p>@Carta.Contenido</p>
+        </div>
+    }
+</section>
