@@ -37,11 +37,14 @@ public class HomeController : Controller
     }
         public IActionResult Contactanos()
     {
+        ViewBag.seEnvio = false;
         return View();
     }
     public IActionResult Form(string Nombre, string Apellido, string DNI, string FechaNacimiento, string Email, string Pais, string Ciudad, string Telefono, string DudasAclaraciones, string MotivoContacto)
     {
-        return View();
+        ViewBag.Nombre = Nombre;
+        ViewBag.seEnvio = true;
+        return View("contactanos");
     }
 
 

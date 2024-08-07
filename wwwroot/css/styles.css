@@ -219,6 +219,16 @@ header{
 .borrar:hover{
   transform: scale(1.05);
 }
+.mensaje{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.mensaje p{
+  font-size: 20px;
+  color: #4CAF50;
+}
   /*footer*/
   footer {
   background-color: rgb(184, 163, 163);

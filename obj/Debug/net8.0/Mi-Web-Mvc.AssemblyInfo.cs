@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mi-Web-Mvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3db7a08260cf8a33575d85f8afc0e0c82eec2c45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d80f408d2367378150802de122a3f01ee466e54")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mi-Web-Mvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mi-Web-Mvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
